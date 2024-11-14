@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Manutenção</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Under Maintenance | Impact Initiative</title>
     <style>
         body {
             display: flex;
@@ -12,29 +13,56 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: #f3f4f6;
             color: #333;
-            text-align: center;
         }
         .container {
+            text-align: center;
+            padding: 2rem;
             max-width: 600px;
-            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         }
         h1 {
-            font-size: 2.5em;
-            color: #d9534f;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #003366;
         }
         p {
-            font-size: 1.2em;
-            margin-top: 10px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        .logo {
+            margin-bottom: 1rem;
+        }
+        .button {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #003366;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #00509e;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Em Manutenção</h1>
-        <p>O site da Universidade está temporariamente em manutenção. Por favor, volte mais tarde.</p>
-        <p>Agradecemos pela sua compreensão.</p>
+        <img src="https://president.columbia.edu/sites/default/files/styles/cu_crop/public/content/007-2352_PresWeb%20_1400X456_v2.jpg?itok=Qt9A3xOH" alt="Impact Initiative Logo" class="logo" width="150">
+        <h1>We'll Be Back Soon!</h1>
+        <p>Our website is currently undergoing scheduled maintenance to improve your experience. We apologize for any inconvenience and appreciate your patience.</p>
+        <p>Please check back shortly.</p>
+        <a href="mailto:support@gsb.columbia.edu" class="button">Contact Support</a>
     </div>
+
 </body>
 </html>
