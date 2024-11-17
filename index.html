@@ -3,53 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Under Maintenance</title>
+    <title>Maintenance Mode | Course Global NP</title>
     <style>
         body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
             color: #333;
         }
-        h1 {
-            font-size: 2em;
-            color: #0066cc;
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
         }
-        p {
+        .container h1 {
+            font-size: 2.5em;
+            color: #0056b3;
+        }
+        .container p {
             font-size: 1.2em;
-            margin: 20px 0;
+            line-height: 1.6;
+            color: #666;
         }
-        .contact {
-            font-size: 1em;
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .help-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #0066cc;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .help-link:hover {
-            background-color: #004080;
+        .container .maintenance-icon {
+            font-size: 3em;
+            color: #f39c12;
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Digital Humanities at MIT</h1>
-    <h2>Website Under Maintenance</h2>
-    <p>We are currently performing scheduled maintenance on this site.</p>
-    <p>Thank you for your patience, and we apologize for any inconvenience.</p>
-    <p><strong>Expected Return:</strong> We will be back online shortly, so please check back soon.</p>
-    <p>If you have any urgent questions, feel free to reach out via email at 
-        <a href="mailto:info@digitalhumanities.mit.edu" class="contact">info@digitalhumanities.mit.edu</a>.
-    </p>
-    <p>In the meantime, you can visit the <a href="https://help.mit.edu" class="help-link">MIT Help Page</a> for support.</p>
-    <p>Thank you for your understanding,</p>
-    <p><strong>The Digital Humanities Team at MIT</strong></p>
+    <div class="container">
+        <div class="maintenance-icon">🚧</div>
+        <h1>We'll Be Back Soon</h1>
+        <p>
+            Our website is currently undergoing scheduled maintenance to improve your experience. 
+            Please check back later. Thank you for your patience!
+        </p>
+        <p>- Course Global NP Team</p>
+    </div>
 </body>
 </html>
